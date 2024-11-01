@@ -10,3 +10,16 @@ body{
     src:url(https://fonts.google.com/specimen/Outfit);
     font-weight: 400 , 700;
 }
+
+#container{
+    background:grey;
+    height:100%;
+    width:1440px;
+}
+
+.firstBox{
+    background:chocolate;
+    width:80%;
+    height:80%;
+   
+}

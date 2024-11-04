@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 
 *{
     margin:0;
@@ -6,20 +8,53 @@
 
 body{
     font-size: 15px;
-    font-family: outfit;
+    font-family: 'Outfit', sans-serif;
     src:url(https://fonts.google.com/specimen/Outfit);
     font-weight: 400 , 700;
 }
 
 #container{
-    background:grey;
-    height:100%;
-    width:1440px;
+    background:#f0f0f0;
+    height:100vh;
+    width:100vw;
+    position: relative;
+
+}
+.firstBox{
+    background:#d5e1ef;
+    opacity:0.7;
+    height:80%;
+    width:95%;
+    align-self: center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    box-shadow: 0 10px 30px black;
+
 }
 
-.firstBox{
-    background:chocolate;
-    width:80%;
-    height:80%;
-   
+.secondBox{
+    background:#ffffff;
+    height:65%;
+    width:20%;
+    border-radius: 10px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+img{
+    width:90%;
+    border-radius:inherit;
+}
+
+h3,p{
+    margin:10px;
 }
